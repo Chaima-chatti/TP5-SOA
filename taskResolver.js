@@ -37,7 +37,7 @@ const taskResolver = {
         duration,
       };
       tasks.push(task);
-      return task;
+      return  task;
     },
     completeTask: (_, { id }) => {
       const taskIndex = tasks.findIndex(task => task.id === id);
